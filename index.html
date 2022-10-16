@@ -1,0 +1,53 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="header">
+            <div class="left-head">
+                <p>Library of Ohara</p>
+            </div>
+            <div class="menu-bar">
+                <button id="pop-button">+ New</button>
+            </div>
+        </div>
+        
+            <div class="modal">
+                    <div class="top-close">
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="formIP">
+                        <form id="form" action="'/script.js">
+                            <div class="input">
+                                <input type="text" name="" id="title"placeholder="Title"><br>
+                                <input type="text" id="author"placeholder="Author"><br>
+                                <input type="number" id="pages"placeholder="No of Pages"><br>
+                            </div>
+                            <div class="checkbox">
+                                <label for="read">Read</label>
+                                <input type="radio" name="read" id="read">
+                            </div>
+                        
+                            <button class="submit" type="submit"form='form'>Add</button>
+                        </form>
+                    </div>
+            </div>
+            <div id="lib-cont">
+
+            </div>
+        <div class="footer">
+
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
